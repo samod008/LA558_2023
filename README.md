@@ -1,2 +1,3 @@
-# LA558_2023
-Course Materials for LA558, Spring 2023
+# LA558 - Introduction to Web Mapping - Spring 2023
+ edition
+This repo includes the course materials for this [Iowa State University](https://www.iastate.edu) course taught by [Professor Seeger](https://faculty.sites.iastate.edu/cjseeger/).

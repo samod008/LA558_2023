@@ -1,20 +1,25 @@
 # Chris Seeger
 # Lecture 4a
 # LA 558, Spring 2023
-
-# Introduction ####
-#If your key is stored properly this will retrieve it. 
-#details https://walker-data.com/tidycensus/reference/census_api_key.html
-Sys.getenv("CENSUS_API_KEY")
-
-# optionally instead of retrieving it, you could add the key below.
-#census_api_key('key', overwrite = FALSE, install = TRUE)
+# ----Header------------------------------
 
 # Packages and libraries ####
 install.packages("tidyverse")
 install.packages("tidycensus")
 library(tidyverse)
 library(tidycensus)
+
+
+
+# Introduction ####
+# If your key is stored properly this will retrieve it. 
+# Details https://walker-data.com/tidycensus/reference/census_api_key.html
+# Sys.getenv("CENSUS_API_KEY")
+
+# optionally instead of retrieving it, you could add the key below.
+#census_api_key('key', overwrite = FALSE, install = TRUE)
+
+
 
 
 

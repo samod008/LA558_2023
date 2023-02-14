@@ -11,11 +11,8 @@ library(tidycensus)
 
 
 
-# Introduction ####
-# If your key is stored properly this will retrieve it. 
-# Details https://walker-data.com/tidycensus/reference/census_api_key.html
-# Sys.getenv("CENSUS_API_KEY")
-
+# Load required API Keys ####
+# If your Census key is stored properly it will be loaded 
 # optionally instead of retrieving it, you could add the key below.
 #census_api_key('key', overwrite = FALSE, install = TRUE)
 

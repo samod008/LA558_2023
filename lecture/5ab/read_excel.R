@@ -35,4 +35,13 @@ cEnrollmentList <- cEnrollment %>%
             dCount = n()) 
 cEnrollmentList 
 
-library(maps)     # Provides latitude and longitude data for various maps
+
+install_packages("sf")
+library("sf")
+
+iowaCounties <- st_read("Counties.shp")
+
+ggplot() + 
+  geom_sf(data = iowaCounties, size = 3, color = "black", fill = "cyan1") + 
+  ggtitle("LA 558") + 
+  coord_sf()

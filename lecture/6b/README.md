@@ -1,10 +1,11 @@
 ### Lecture 6b
 
-Global Demographic Indicators using the idbr R package
+Global Demographic Indicators using the [idbr R package](http://cran.nexr.com/web/packages/idbr/idbr.pdf)
 
 A list [countries available](idbr_countriesList.md)
 
 Example code
+
 
 **Concepts included in the available data**
 - Geographic Characteristics

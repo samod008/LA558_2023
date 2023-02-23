@@ -14,8 +14,8 @@ library(ggplot2)
 #Abbreviations and full names can be mixed if desired.
 #the data frame df has a column of states and one of values
 df <- data.frame(
-  state = c("AL", "Alaska", "AR", "AZ"),
-  values = c(14, 18, 19, 8)
+  state = c("AL", "Alaska", "AR", "AZ", "ND"),
+  values = c(14, 18, 19, 8, 17)
 )
 
 #now just plot the data contained in df

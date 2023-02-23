@@ -38,7 +38,7 @@ plot(iowa_income["estimate"])
 ##### Get Census counts form 2010 and 2020 and find the change in population
 
 
-#Working with Decennial data currently is limited to the avaialble data 
+#Working with Decennial data currently is limited to the available data 
 #which you can see as a list using this
 dec20 <- load_variables(year = 2020, dataset = "pl")
 View(dec20)

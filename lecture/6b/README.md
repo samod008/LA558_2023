@@ -7,14 +7,14 @@ A list [countries available](idbr_countriesList.md)
 Example code
 
 **Concepts included in the available data**
-1 Geographic Characteristics
-2 Fertility rates
-3 Components of population growth
-4 Mortality indicators
-5 Mortality Rates
-6 Total Midyear Population
-7 Female midyear population by 5-year age groups
-8 Male midyear population by 5-year age groups
-9 Total midyear population by 5-year age groups
-10 Census API Date/Time Specification
-11 Required variable
+- Geographic Characteristics
+- Fertility rates
+- Components of population growth
+- Mortality indicators
+- Mortality Rates
+- Total Midyear Population
+- Female midyear population by 5-year age groups
+- Male midyear population by 5-year age groups
+- Total midyear population by 5-year age groups
+- Census API Date/Time Specification
+- Required variable

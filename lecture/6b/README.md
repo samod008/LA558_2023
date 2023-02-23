@@ -4,7 +4,7 @@ Global Demographic Indicators using the [idbr R package](http://cran.nexr.com/we
 
 A list [countries available](idbr_countriesList.md)
 
-Example code
+Example code provided in [otherCountries.R](otherCountries.R)
 
 
 **Concepts included in the available data**

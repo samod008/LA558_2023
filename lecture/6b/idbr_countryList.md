@@ -1,5 +1,4 @@
-###List of Countries available in the Global Demographic Indicators
-using the idbr R package
+### List of Countries available in the Global Demographic Indicators using the idbr R package
 
 
 | code | name                                          |

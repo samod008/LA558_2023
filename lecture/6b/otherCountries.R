@@ -1,5 +1,5 @@
-# Other tools you can use to work with data in other countries
-# 
+# Tools you can use to work with data from other countries
+#
 # February 23, 2023
 # Chris Seeger
 
@@ -43,7 +43,7 @@ head(demo2)
 # for example Sex ratio at birth (males per female) for the selected countries
 
 year = 2014
-title =  paste("Sex ratio at birth (males per female) (", year, ")")
+myTitle =  paste("Sex ratio at birth (males per female) (", year, ")")
 
 
 sex_ratio_birth <- get_idb(
@@ -56,10 +56,10 @@ sex_ratio_birth <- get_idb(
 ggplot(sex_ratio_birth, aes(fill = srb)) + 
   theme_bw() + 
   geom_sf() + 
-  coord_sf(crs = 'ESRI:54030') + 
+  coord_sf(crs = 'ESRI:54030') + #Chris needs a better coord
   scale_fill_viridis_c() + 
-  labs(fill = "Ratio M:F", title = title,
-                        subtitle = "Selected South America countries", )
+  labs(fill = "Ratio M:F", title = myTitle,
+    subtitle = "Selected South America countries", )
 
 
 
@@ -84,7 +84,7 @@ ggplot(demo3, aes(x=name, y=grr)) +
 
 #Or flip the coordinates and add titles
 ggplot(demo3, aes(x=name, y=grr)) + 
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", width=0.7) +
   labs(title = "The Title", subtitle = "the Sub Title") +
   coord_flip()
 

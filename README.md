@@ -4,5 +4,3 @@ This repository includes the course materials for this [Iowa State University](h
 This course explores the use and development of online mapping tools and coding to support participatory GIS, Volunteered Geographic Information, data wrangling and sharing, geodesign, and decision-making actions. Geoprocessing, spatial data science, and user interface design. Laboratory emphasis on practical applications and uses of Web GIS. 
 This course has a Prereq: CRP 451/551. GEOL 452/552 or instructor permission.
 
-
-[assignment3](lecture/7ab)

@@ -177,3 +177,8 @@ usmap::plot_usmap("counties", fill = "yellow", alpha = 0.25,
 
 # These parameters therefore allow for the possibility of some complex 
 # compositions of states and counties, to create the exact map that is desired.
+
+
+head(pressure)
+plot(pressure, type="l")
+plot(pressure, cex = 2)

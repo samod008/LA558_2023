@@ -25,7 +25,7 @@ demo <- get_idb(
 )
 head(demo)
 
-#A vector can be created to get a group of cuntries or years as follows
+#A vector can be created to get a group of countries or years as follows
 #note the result is in long format - not great for GIS, but good for Tableau!
 
 countries = c("Argentina", "Uruguay", "Chile", "Paraguay", "Bolivia")

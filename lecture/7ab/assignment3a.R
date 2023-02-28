@@ -19,7 +19,7 @@ vars <- load_variables(2021, "acs5")
 View(vars)
 
 # Look at the households with no vehicle available
-# I started by searching hte vars table from above for vehicle
+# I started by searching the vars table from above for vehicle
 # found B08201. So I did a google search for B08201_001 ACS
 #https://www.socialexplorer.com/data/ACS2015/metadata/?ds=ACS15&var=B08201001
 #https://censusreporter.org/tables/B08201/
@@ -29,7 +29,7 @@ View(vars)
 #B08201_002 All households without a vehicle
 
 noVehicle <- get_acs(
-  geography = "tract",
+  geography = "county",
   state = "Iowa",
   variables = "B08201_002",
   year = 2021,
@@ -54,7 +54,8 @@ plot1 <- ggplot(data = noVehicle) +
  geom_sf(aes(fill = nv_percent)) + 
   scale_colour_brewer(palette = "Spectral") +
   coord_sf(crs = "+init=epsg:26915") +
-  labs(title = "Percent households without a vehicle", fill="percent") +
-  theme(rect = element_blank(), axis.ticks = element_blank(), 
-        axis.text.x = element_blank(), axis.text.y = element_blank())
+  labs(title = "Percent households without a vehicle.", fill="Percent")
 plot1
+
+plot1 + theme(rect = element_blank(), axis.ticks = element_blank(), 
+                axis.text.x = element_blank(), axis.text.y = element_blank())

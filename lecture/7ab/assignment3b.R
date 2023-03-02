@@ -35,4 +35,3 @@ plot2
 
 geom_bar(stat="identity") +
   theme_minimal()
-

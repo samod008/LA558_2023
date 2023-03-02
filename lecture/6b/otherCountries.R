@@ -56,7 +56,7 @@ sex_ratio_birth <- get_idb(
 ggplot(sex_ratio_birth, aes(fill = srb)) + 
   theme_bw() + 
   geom_sf() + 
-  coord_sf(crs = 'ESRI:54030') + #Chris needs a better coord
+  coord_sf(crs = 'ESRI:102032') + #SAD 1969 Equidistant Conic South America 
   scale_fill_viridis_c() + 
   labs(fill = "Ratio M:F", title = myTitle,
     subtitle = "Selected South America countries", )

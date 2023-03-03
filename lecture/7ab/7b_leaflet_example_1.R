@@ -3,10 +3,10 @@
 
 
 install.packages("leaflet", "tidycensus", "tidyverse", "plotly")
-library("leaflet")
-library("tidycensus")
-library("tidyverse")
-library("readxl")
+library(leaflet)
+library(tidycensus)
+library(tidyverse)
+library(readxl)
 
 
 #resource for this is https://rstudio.github.io/leaflet/map_widget.html
@@ -26,3 +26,11 @@ map  # Print the map
 
 # I dislike having to zoom in all the time so I will set the vie center to 
 map %>% setView(lng= -93.6347, lat=42.0019, zoom = 14)
+
+
+
+
+
+
+
+

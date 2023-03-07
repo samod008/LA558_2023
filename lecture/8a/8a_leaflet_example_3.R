@@ -10,15 +10,15 @@ library(tidyverse)
 library(readxl)
 library(sf)
 
-# set working directory to the same as this R file.
+# Set working directory to the same as this R file.
 # Read in the shapefile
 studentCount <- st_read("studentConferenceCounty.shp")
 
-#set the projection to use lat and longs
+# Set the projection to use lat and longs
 studentCount <- st_transform(studentCount, crs = 4326)
 
-#I should have corrected the name of the count field. IT is currently 
-#last_name_ use dplyr to rename the column
+# I should have corrected the name of the count field. It is currently 
+# last_name_, but I can use dplyr to rename the column!
 studentCount <- studentCount %>% rename(count = last_name_)
 
 m <- leaflet() %>%
@@ -28,7 +28,7 @@ m <- leaflet() %>%
     color = "blue", fill = NA, weight = 1)
 m
 
-#Display only a few counties
+# Display only a few counties, Boone and Green for example.
 studentCount_selection1 <- studentCount %>% 
   filter(COUNTY %in% c("Boone", "Greene"))
 
@@ -38,13 +38,12 @@ m <- leaflet() %>%
   addPolygons(data = studentCount_selection1,  # borders of all counties
               color = "#ffff00", fillColor = "blue", weight = 5, opacity = 0.75)
 m
-#Yes, that was a poor color selection ...
-#note using help to see the other properties of the addPolygons - notice to
-#change the opacity of the fill you need to use fillOpacity = a value of 0-1
+# Yes, that was a poor color selection ...
+# Note using help to see the other properties of the addPolygons - notice to
+# Change the opacity of the fill you need to use fillOpacity = a value of 0-1
 ?leaflet::addPolygons
 
-
-# or maybe only the counties with no participants? Look for not > than 0 or NA
+# Or maybe only the counties with no participants? Look for not > than 0 or NA
 studentCount_selection2 <- studentCount %>% 
   filter(is.na(count) | !count > 0)
 
@@ -57,27 +56,27 @@ m <- leaflet() %>%
 m
 
 
-#what if I wanted to show both of the special selections?
+# What if I wanted to show both of the special county selections?
 m <- leaflet() %>%
   setView(-94.5, 42.2, 6)  %>%
   addTiles() %>%
   addPolygons(data = studentCount_selection2,  # borders of all counties
               color = "#000", fillColor = "red", weight = 1, 
               opacity = 0.75, fillOpacity = 0.8) %>%
-  #add the additional polygon!
+# Add the additional polygon! This woudl work for markers as well!!!
   addPolygons(data = studentCount_selection1,  # borders of all counties
               color = "blue", fillColor = "white", weight = 5, 
               opacity = 0.75, fillOpacity = 0.8)
 m
 
 
-#OK, but what I really want is a chloropleth map of the counts
-#first I better replace the NA in the entire dataframe with a 0.
+# OK, but what I really want is a chloropleth map of the counts
+# First I better replace the NA in the entire dataframe with a 0.
 studentCount <- studentCount %>%
   replace(is.na(.), 0)
 
 # Select the color scheme from Color Brewer
-library("RColorBrewer") #I think either LEaflet or tidyverse load this for you
+library("RColorBrewer") #I think either Leaflet or tidyverse loads this for you
 display.brewer.all()
 
 
@@ -97,7 +96,7 @@ m <- leaflet() %>%
 m
 
 
-#add interaction
+# Add interaction
 m <- leaflet() %>%
   setView(-94.5, 42.2, 6)  %>%
   addTiles() %>%
@@ -117,9 +116,10 @@ m <- leaflet() %>%
   )
 m
 
-#with that working we now need to display the county and the count in a popup
-#start with the description of the labels, must do this before loading the map
-# reference for sprintf https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/sprintf
+# With that working we now need to display the county and the count in a popup
+# Start with the description of the labels , must do this before 
+# loading the map reference for sprintf 
+# is https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/sprintf
 labels <- sprintf(
   "<strong>%s</strong><br/>%g students",
   studentCount$COUNTY, studentCount$count

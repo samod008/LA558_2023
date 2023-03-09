@@ -28,13 +28,17 @@ labels <- sprintf(
 
 
 #make a short list of markers and convert to a data frame
-longitude<- c(-92.3, -91.4)
-latitude <- c(42.1, 42.7)
+longitude<- c(-92.3, -91.4, -92.7)
+latitude <- c(42.1, 42.7, 42.0)
 df <- data.frame(longitude, latitude)
 # convert to spatial data frame
 df_sf = st_as_sf(df, coords = c("longitude", "latitude"), crs = 4326)
 
-
+#But we would prefer to have
+bounds <- df_sf %>% 
+  st_bbox() %>% 
+  as.character()
+#fitBounds(m, bounds[1], bounds[2], bounds[3], bounds[4])
 
 
 m <- leaflet() %>%

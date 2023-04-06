@@ -120,3 +120,5 @@ aa %>%
     dose ~ supp, 
     labeller = labeller(dose = dose.labs, tVar = supp.labs)
   )
+  
+  

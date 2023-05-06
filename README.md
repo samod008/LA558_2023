@@ -5,9 +5,9 @@ This course explores the use and development of online mapping tools and coding 
 This course has a Prereq: CRP 451/551. GEOL 452/552 or instructor permission.
 
 
-## Final projects
+#### Final projects
 
-Xin Yan
+##### Xin Yan
 What data can help us estimate building heights at high resolution?
 Building height is an important indicator for estimating energy consumption, material stock allocation, greenhouse gas emissions, urban heat island effects, distribution of population,
 and urban development plan. However, openly accessible building height information over large

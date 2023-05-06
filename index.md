@@ -1,4 +1,3 @@
-### Introduction
 This repository includes the course materials for the LA 558 Spring 2023 Introduction to Web Mapping and Data Visualization course at [Iowa State University](https://www.iastate.edu). This course is taught by [Professor Seeger](https://faculty.sites.iastate.edu/cjseeger/).
 
 The course explores the use and development of online mapping tools and coding to support a variety of activities. Topics include: spatial data science, participatory GIS, Volunteered Geographic Information, geodesign, data wrangling and sharing, user interface design and decision-making actions. 

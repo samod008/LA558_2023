@@ -7,6 +7,17 @@ This course has a Prereq: CRP 451/551. GEOL 452/552 or instructor permission.
 
 ### Final projects
 
+**Abiola Adesanya - [Developing a Web-Based Historic Places Map: A Tool for Promoting Historic Preservation
+and Tourism](https://abiolaaminat.github.io/LA558_Abiola_Adesanya/Finalproject/finalproject.html)**<br>
+Historic landmarks and monuments are an important part of our cultural heritage, but
+they can be difficult to discover and learn about. To promote historic preservation and tourism,
+there is a need for tools that help people discover and explore historic places in their communities.
+This project aims to develop a web-based historic places map that provides users with a visual
+representation of the historic landmarks and monuments in Iowa State. The map will be created
+using data from historic preservation organizations, government agencies, and museums. The tool
+will allow users to explore and interact with data, including photographs. The goal of this project
+is to promote historic preservation, tourism, and education by providing an interactive tool for
+discovering and learning about historic places in Iowa State.
 
 
 **Xin Yan - [What data can help us estimate building heights at high resolution?](https://xinyan127.github.io/LA558_XinYan/?locale=en-us)**<br>

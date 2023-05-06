@@ -1,5 +1,7 @@
-name: "LA-558 Spring 2023"
-title: "LA 558 Spring 2023"
+#name: "LA-558 Spring 2023"
+#title: "LA 558 Spring 2023"
 #These work if you have a supporting theme.
-subtitle: "Introduction to Web Mapping and Spatial Data Visualization"
+#subtitle: "Introduction to Web Mapping and Spatial Data Visualization"
 theme: jekyll-theme-tactile
+title: [The title of your site]
+description: [A short description of your site's purpose]

@@ -24,7 +24,12 @@ discovering and learning about historic places in Iowa State.
 **Eunice Amissah-Mensah - [Assessing Homelessness in the United States](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/?locale=en-us)**<br>
 Homelessness is a complex issue that affects millions of people in the United States. It is caused by a combination of factors including poverty, lack of affordable housing, job loss, and mental illness. Homelessness disproportionately affects specific populations, such as veterans, families with children, and individuals experiencing chronic homelessness. The impact of homelessness extends beyond just housing insecurity, it affects physical and mental health, access to education and employment opportunities, and overall quality of life. Addressing homelessness requires a comprehensive and integrated approach that includes access to affordable housing, healthcare, education, and job training. Addressing homelessness is critical for ensuring the well-being and stability of individuals and communities. This project seeks to visualize places where categories of homelessness are prevalent with the help of Tableau.
 
+**Yadhav Deerpaul - [-](https://yadhav13.github.io/LA558_Yadhav_Deerpaul/?locale=en-us)**<br>
+---
 
+
+**Lily Ehler - [-](https://lily-ehler.github.io/LA558_Lily_Ehler/?locale=en-us)**<br>
+---
 
 **Xin Yan - [What data can help us estimate building heights at high resolution?](https://xinyan127.github.io/LA558_XinYan/?locale=en-us)**<br>
 Building height is an important indicator for estimating energy consumption, material stock allocation, greenhouse gas emissions, urban heat island effects, distribution of population,and urban development plan. However, openly accessible building height information over large areas at high spatial resolution is still missing. To estimate the building height at a high accuracy, satellite data is the best choice to do that. Besides that, the building morphology also plays a big role. Different satellite data has various band setting, observation characteristics and research focus, the most important work is finding a set of stable features that help us build a model to estimate the building height. After having these features, we can easily predict the building height!

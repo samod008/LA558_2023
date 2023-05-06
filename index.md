@@ -31,5 +31,13 @@ Homelessness is a complex issue that affects millions of people in the United St
 **Lily Ehler - [-](https://lily-ehler.github.io/LA558_Lily_Ehler/?locale=en-us)**<br>
 ---
 
+**Ayodele Fadoju - [-](https://fadojuaj.github.io/LA558_FADOJU_AYODELE/?locale=en-us)**<br>
+---
+
+**Zahra Khalilzadeh - [Crop Yield Analysis](https://zahrakhalilzadeh.github.io/LA558_Zahra_Khalilzadeh/?locale=en-us)**<br>
+The goal of this project is to develop a web map using R or Tableau to visualize crop yields in Iowa over time and identify factors that impact production such as soil quality and weather patterns. The project will use data analysis techniques to explore the correlation between crop yields and factors such as soil quality, weather patterns, and crop management practices. By creating a web map that displays crop yields across different counties in Iowa over time, the project aims to identify trends and patterns that could help farmers optimize their crop management practices. The project will also incorporate remote sensing technologies to monitor plant growth and health, as well as weather patterns, to predict pest and disease outbreaks and determine when and how much water to apply to different areas of the field.
+
+
+
 **Xin Yan - [What data can help us estimate building heights at high resolution?](https://xinyan127.github.io/LA558_XinYan/?locale=en-us)**<br>
 Building height is an important indicator for estimating energy consumption, material stock allocation, greenhouse gas emissions, urban heat island effects, distribution of population,and urban development plan. However, openly accessible building height information over large areas at high spatial resolution is still missing. To estimate the building height at a high accuracy, satellite data is the best choice to do that. Besides that, the building morphology also plays a big role. Different satellite data has various band setting, observation characteristics and research focus, the most important work is finding a set of stable features that help us build a model to estimate the building height. After having these features, we can easily predict the building height!

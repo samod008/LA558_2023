@@ -24,15 +24,15 @@ discovering and learning about historic places in Iowa State.
 **Eunice Amissah-Mensah - [Assessing Homelessness in the United States](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/?locale=en-us)**<br>
 Homelessness is a complex issue that affects millions of people in the United States. It is caused by a combination of factors including poverty, lack of affordable housing, job loss, and mental illness. Homelessness disproportionately affects specific populations, such as veterans, families with children, and individuals experiencing chronic homelessness. The impact of homelessness extends beyond just housing insecurity, it affects physical and mental health, access to education and employment opportunities, and overall quality of life. Addressing homelessness requires a comprehensive and integrated approach that includes access to affordable housing, healthcare, education, and job training. Addressing homelessness is critical for ensuring the well-being and stability of individuals and communities. This project seeks to visualize places where categories of homelessness are prevalent with the help of Tableau.
 
-**Yadhav Deerpaul - [too be added](https://yadhav13.github.io/LA558_Yadhav_Deerpaul/?locale=en-us)**<br>
----
+**Yadhav Deerpaul - [title](https://yadhav13.github.io/LA558_Yadhav_Deerpaul/?locale=en-us)**<br>
+Abstract to be added
 
 
-**Lily Ehler - [-](https://lily-ehler.github.io/LA558_Lily_Ehler/?locale=en-us)**<br>
----
+**Lily Ehler - [title](https://lily-ehler.github.io/LA558_Lily_Ehler/?locale=en-us)**<br>
+Abstract to be added
 
-**Ayodele Fadoju - [-](https://fadojuaj.github.io/LA558_FADOJU_AYODELE/?locale=en-us)**<br>
----
+**Ayodele Fadoju - [title](https://fadojuaj.github.io/LA558_FADOJU_AYODELE/?locale=en-us)**<br>
+Abstract to be added
 
 **Zahra Khalilzadeh - [Crop Yield Analysis](https://zahrakhalilzadeh.github.io/LA558_Zahra_Khalilzadeh/?locale=en-us)**<br>
 The goal of this project is to develop a web map using R or Tableau to visualize crop yields in Iowa over time and identify factors that impact production such as soil quality and weather patterns. The project will use data analysis techniques to explore the correlation between crop yields and factors such as soil quality, weather patterns, and crop management practices. By creating a web map that displays crop yields across different counties in Iowa over time, the project aims to identify trends and patterns that could help farmers optimize their crop management practices. The project will also incorporate remote sensing technologies to monitor plant growth and health, as well as weather patterns, to predict pest and disease outbreaks and determine when and how much water to apply to different areas of the field.
